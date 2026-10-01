@@ -23,3 +23,6 @@ Console.WriteLine("========================");
 
 string lenguaje = "Java";
 Console.WriteLine($"Lenguaje favorito: {lenguaje}");
+
+string lenguaje = "C#";
+Console.WriteLine($"Lenguaje: {lenguaje}");
