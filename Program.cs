@@ -1,3 +1,5 @@
+﻿string alumnoB = "Nerea";
+Console.WriteLine($"Desarrollador 2: {alumnoB}");
 ﻿string alumnoA = "Laura";
 Console.WriteLine($"Desarrollador 1: {alumnoA}");
 
