@@ -18,4 +18,7 @@ double precioFinal = presupuesto * 1.5;
 
 Console.WriteLine("------------------------");
 Console.WriteLine("       GAME OVER");
-Console.WriteLine("------------------------");
+
+
+Console.WriteLine("       Gracias por jugar");
+Console.WriteLine("========================");
