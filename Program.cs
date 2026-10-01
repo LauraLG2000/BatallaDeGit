@@ -11,6 +11,14 @@ string equipo = "Los programadores";
 int puntos = 350;
 double presupuesto = 50;
 
+Console.WriteLine("Hola Nerea, ¿cómo estás? Vengo a crear conflictos :D");
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine($"Iteración {i + 1}: ¡Conflicto creado!");
+    puntos += 50;
+    presupuesto += 20;
+}
+
 Console.WriteLine($"Equipo: {equipo}");
 Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
@@ -24,5 +32,5 @@ Console.WriteLine("========================");
 string lenguaje = "Java";
 Console.WriteLine($"Lenguaje favorito: {lenguaje}");
 
-string lenguaje = "C#";
-Console.WriteLine($"Lenguaje: {lenguaje}");
+string nuevoLenguaje = "C#";
+Console.WriteLine($"Lenguaje: {nuevoLenguaje}");
