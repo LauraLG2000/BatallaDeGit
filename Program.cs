@@ -22,3 +22,6 @@ Console.WriteLine("       GAME OVER");
 
 Console.WriteLine("       Gracias por jugar");
 Console.WriteLine("========================");
+
+string lenguaje = "C#";
+Console.WriteLine($"Lenguaje: {lenguaje}");
