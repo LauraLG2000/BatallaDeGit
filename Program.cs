@@ -18,10 +18,11 @@ double precioFinal = presupuesto * 1.5;
 
 Console.WriteLine("------------------------");
 Console.WriteLine("       GAME OVER");
-
-
 Console.WriteLine("       Gracias por jugar");
 Console.WriteLine("========================");
+
+string lenguaje = "Java";
+Console.WriteLine($"Lenguaje favorito: {lenguaje}");
 
 string lenguaje = "C#";
 Console.WriteLine($"Lenguaje: {lenguaje}");
