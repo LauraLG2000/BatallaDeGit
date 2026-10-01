@@ -16,6 +16,6 @@ Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
 double precioFinal = presupuesto * 1.5;
 
-Console.WriteLine("========================");
-Console.WriteLine("       FIN");
-Console.WriteLine("========================");
+Console.WriteLine("------------------------");
+Console.WriteLine("       GAME OVER");
+Console.WriteLine("------------------------");
