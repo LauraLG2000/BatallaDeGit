@@ -14,7 +14,7 @@ double presupuesto = 50;
 Console.WriteLine($"Equipo: {equipo}");
 Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
-double precioFinal = presupuesto + 25;
+double precioFinal = presupuesto * 1.5;
 
 Console.WriteLine("========================");
 Console.WriteLine("       FIN");
