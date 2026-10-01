@@ -17,5 +17,6 @@ Console.WriteLine($"Presupuesto: {presupuesto} €");
 double precioFinal = presupuesto * 1.5;
 
 Console.WriteLine("========================");
-Console.WriteLine("       FIN");
+Console.WriteLine("       PROGRAMA TERMINADO");
+Console.WriteLine("       Gracias por jugar");
 Console.WriteLine("========================");
