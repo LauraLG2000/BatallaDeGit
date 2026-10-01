@@ -16,6 +16,24 @@ Console.WriteLine($"Puntos: {puntos}");
 Console.WriteLine($"Presupuesto: {presupuesto} €");
 double precioFinal = presupuesto * 1.5;
 
+if (puntos >= 250)
+{
+    Console.WriteLine("¡Enhorabuena! Has ganado el juego.");
+}
+else
+{
+    Console.WriteLine("Lo siento, has perdido el juego.");
+}
+
+if (precioFinal >= 50)
+{
+    Console.WriteLine("El precio final es mayor al presupuesto.");
+}
+else
+{
+    Console.WriteLine("El precio final es menor o igual al presupuesto.");
+}
+
 Console.WriteLine("------------------------");
 Console.WriteLine("       GAME OVER");
 Console.WriteLine("       Gracias por jugar");
