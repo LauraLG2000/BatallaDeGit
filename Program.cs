@@ -1,4 +1,4 @@
-﻿string alumnoB = "Carlos";
+﻿string alumnoB = "Nerea";
 Console.WriteLine($"Desarrollador 2: {alumnoB}");
 
 Console.WriteLine("========================");
